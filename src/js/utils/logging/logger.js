@@ -39,7 +39,7 @@ const LEVEL_ICONS = {
   ERROR: '❌',
 };
 
-const PREFIX = 'Benri-na-chatwork';
+const PREFIX = 'Chatwork Threader';
 const MAX_HISTORY = 500;
 
 let currentLogLevel = LOG_LEVELS.INFO;
@@ -317,7 +317,7 @@ export const logger = {
 
   // --- ステータスダンプ ---
   dumpStatus() {
-    this.group('Benri-na-chatwork ステータス');
+    this.group('Chatwork Threader ステータス');
     this.info('ログレベル', this.getLogLevel());
     this.info('ログ履歴件数', logHistory.length);
     this.info('アクティブタイマー', Array.from(timers.keys()));

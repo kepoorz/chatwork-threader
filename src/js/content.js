@@ -4,6 +4,6 @@ import { initOnChatworkPage } from './core/init.js';
 logger.setLogLevel('INFO');
 
 window.addEventListener('load', () => {
-  logger.info('Benri-na-chatwork v2.0 ロード');
+  logger.info('Chatwork Threader v2.0 ロード');
   initOnChatworkPage();
 });

@@ -1,11 +1,11 @@
 {
-  "name": "benri-na-chatwork",
+  "name": "chatwork-threader",
   "version": "2.0.0",
   "description": "ChatWorkをより便利にするChrome拡張機能",
   "private": true,
   "scripts": {
     "prebuild": "npm run lint && npm run format && rimraf dist/data",
-    "build": "npm run prebuild && webpack && bestzip dist/benri-na-chatwork.zip dist/data/*",
+    "build": "npm run prebuild && webpack && bestzip dist/chatwork-threader.zip dist/data/*",
     "lint": "eslint src/**/*.js",
     "format": "prettier --write \"src/**/*.{js,css,html,json}\""
   },
