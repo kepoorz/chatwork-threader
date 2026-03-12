@@ -1,4 +1,4 @@
-# Benri-na-chatwork
+# Chatwork Threader
 
 ![CleanShot 20260219_011334](https://github.com/user-attachments/assets/c115c2a6-6008-48a1-9a10-7afb5b14eff1)
 
@@ -27,7 +27,7 @@ ChatWorkの右カラム（サイドバー）にスレッドビューを追加す
 
 ### リリース版（簡単）
 
-1. [Releases](https://github.com/kepoorz/Benri-na-chatwork/releases) から最新の `benri-na-chatwork.zip` をダウンロード
+1. [Releases](https://github.com/ide/chatwork-threader/releases) から最新の `chatwork-threader.zip` をダウンロード
 2. zipを解凍
 3. `chrome://extensions` → デベロッパーモードON
 4. 「パッケージ化されていない拡張機能を読み込む」→ 解凍したフォルダを選択
@@ -36,8 +36,8 @@ ChatWorkの右カラム（サイドバー）にスレッドビューを追加す
 
 1. クローン & ビルド:
    ```
-   git clone https://github.com/kepoorz/Benri-na-chatwork.git
-   cd Benri-na-chatwork
+   git clone https://github.com/ide/chatwork-threader.git
+   cd chatwork-threader
    npm install
    npm run build
    ```

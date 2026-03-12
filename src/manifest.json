@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Benri-na-chatwork",
+  "name": "Chatwork Threader",
   "version": "2.0.0",
   "description": "ChatWorkの右カラムにスレッドビューを追加する拡張機能",
   "author": "",
@@ -13,7 +13,7 @@
       "48": "images/icon48.png",
       "128": "images/icon128.png"
     },
-    "default_title": "Benri-na-chatwork"
+    "default_title": "Chatwork Threader"
   },
   "icons": {
     "16": "images/icon16.png",

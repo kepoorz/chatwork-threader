@@ -12,7 +12,7 @@ import { logger } from '../logging/logger.js';
 export function addStyles(cssText) {
   try {
     // 既存のスタイル要素を検索
-    const existingStyle = document.querySelector('style[data-extension="benri-na-chatwork"]');
+    const existingStyle = document.querySelector('style[data-extension="chatwork-threader"]');
 
     // 既存の要素があれば更新、なければ新規作成
     if (existingStyle) {
@@ -22,7 +22,7 @@ export function addStyles(cssText) {
     } else {
       const style = document.createElement('style');
       style.setAttribute('type', 'text/css');
-      style.setAttribute('data-extension', 'benri-na-chatwork');
+      style.setAttribute('data-extension', 'chatwork-threader');
       style.textContent = cssText;
       document.head.appendChild(style);
       logger.debug('新しいスタイル要素を追加しました');
@@ -39,7 +39,7 @@ export function addStyles(cssText) {
  */
 export function removeStyles() {
   try {
-    const style = document.querySelector('style[data-extension="benri-na-chatwork"]');
+    const style = document.querySelector('style[data-extension="chatwork-threader"]');
     if (style) {
       style.remove();
       logger.debug('スタイル要素を削除しました');

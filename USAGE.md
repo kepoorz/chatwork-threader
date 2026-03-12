@@ -1,4 +1,4 @@
-# Benri-na-chatwork 使用方法
+# Chatwork Threader 使用方法
 
 ## インストール方法
 
